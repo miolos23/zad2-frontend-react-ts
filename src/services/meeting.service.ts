@@ -30,5 +30,5 @@ class MeetingDataService {
         return http.get<Array<IMeetingData>>(`/meetings?title=${title}`)
     }
 }
-
+// eslint-disable-next-line
 export default new MeetingDataService();

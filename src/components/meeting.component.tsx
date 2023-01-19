@@ -20,7 +20,7 @@ export default class Meeting extends Component<Props, State> {
         this.onChangeTitle = this.onChangeTitle.bind(this);
         this.onChangeCapacity = this.onChangeCapacity.bind(this);
         this.getMeeting = this.getMeeting.bind(this);
-        this.updateActive.bind(this);
+        this.updateActive = this.updateActive.bind(this);
         this.updateMeeting = this.updateMeeting.bind(this);
         this.deleteMeeting = this.deleteMeeting.bind(this);
 
